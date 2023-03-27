@@ -1,0 +1,269 @@
+body{
+    margin:0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main{
+    background-image:url(netflix-mainbg.jpg);
+    background-color: hsl(0, 0%, 5%);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    
+    
+}
+ .overlay{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.952) 0, rgba(0, 0, 0, 0.692) 60%, rgba(0, 0, 0, 0.89) 100%);
+    height: 800px;
+       
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 180px;
+    padding-left: 140px;
+    padding-top: 6px;
+   
+
+}
+.headerRight{
+    padding-right: 130px;
+    padding-top: 6px;
+   
+}
+.signin{
+    margin:20px;
+    background: rgb(229,9,20);
+   border-radius: 3px;
+   border: none;
+   padding:5px 12px;
+   font-size: 15px;
+   color: white;
+   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+   
+}
+
+.eng{
+  border-radius: 3px;
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding: 4px 33px;
+  border-width: .3px; 
+}
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 160px;
+}
+.word1{
+    padding-top: 30px;
+   
+}
+.h1{
+    margin: 0;
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    
+}
+.h2{
+margin: 10px;
+    font-weight: 100;
+    font-size: 22px;
+    letter-spacing: -1px;
+}
+.word2{
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 0px;
+  
+ 
+}
+.word3{
+    color: white;
+    font-size: 17px;
+    font-weight: 40;
+}
+.form{
+    display: flex;
+   justify-content: space-between;
+    align-items: baseline;
+}
+.get{
+  margin-left: 130px;
+    background: rgb(229,9,20);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    
+
+}
+.email{
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.397);
+    color: white;
+padding: 14px 50px;
+border-radius: 4px;
+border-width: 1px;
+
+}
+.adv{
+    height: 600px;
+    display: flex;
+   
+    justify-content:center;
+    background-color: black;
+}
+.adv-content-l1{
+    margin: 0;
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+.adv-content-l2{
+    color: white;
+
+}
+.img{
+    width: 500px;;
+    height: 380px;
+}
+.adv-content{
+   padding-top: 130px;
+}
+.border-botom{
+    border-bottom: 10px;
+    border-bottom-width: 10px;
+    border-bottom-color: brown;
+}
+.questions{
+    background-color: rgb(2, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+}
+
+.qbutton{
+    margin: 4px;
+    background:rgba(128, 128, 128, 0.329);
+    color: white;
+    border: none;
+    font-size: 28px;
+    font-weight: 100;
+    width: 1000px;
+    height: 90px;
+    text-align: left;
+    padding-left: 20px;
+   
+  
+
+}
+.qbutton:hover{
+    background-color: rgba(92, 86, 86, 0.137);
+    transition-delay: 0.1s;
+}
+hr {
+    margin: 0;
+    position: relative;
+   
+    height: 6px;
+    background: #000000d3;
+  
+}
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 240px;
+    width: 100%;
+    
+
+    
+}
+.call{
+    width: 100%;
+    background-color: black;
+    color: white;
+   padding-left: 170px;
+   
+   
+}
+.ft1{
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.f1{margin-left:170px;
+   
+
+}
+.f2{
+    margin-left: 190px;
+    
+}
+.f3{
+    margin-left: 340px;
+    
+}
+.ft{
+    font-weight:300;
+    font-size:15px;   
+}
+.footer-main-div{
+display: flex;
+flex-direction: column;
+background-color: black;
+}
+.footerbutton{
+    height: 60px;
+    background: black;
+    
+}
+.footerbutton1{
+  margin-left: 170px;
+  border-radius: 3px;
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding: 4px 33px;
+  border-width: .3px; 
+  
+
+}
+.Netflixindia{
+    color: white;
+    margin-left: 170px;
+    margin-top: 0;
+
+}
+.adv-imagetv{
+    background-image: url(tv.png);
+    background-size: cover;
+    width: 500px;;
+    height: 380px;
+}
+.tvvideo {
+    width: 365px;
+    height: 270px;
+    padding-left: 69px;
+    padding-top: 50px;
+
+}
+.computer{
+ 
+  
+}
